@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BW Sinais</title>
+    <link rel="shortcut icon" type="icon/png" href="VitorLogo.png">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">
+            <div class="logoName">
+                <img src="incblaze.png">
+                <span>BW Robô de Sinais</span>
+            </div>
+        </a>
+        <span>VIP</span>
+        <div class="divLista">
+            <hr><span>Plano vitalício</span>
+
+        </div>
+    </nav>
+
+    <div class="containerImagem">
+        <img src="paredequebrarabancanablaze.jpg">
+        <img src="imgrobô.png">
+        <img src="eae.jpg">
+    </div>
+
+    <div class="divisao">
+        <h1>Realize sua compra</h1>
+        <p>Solicite seu pacote com um de nossos atendentes.</p>
+        <a href="https://wa.me//5567996825729?text=Tenho%20interesse%20em%20adiquirir%20o%20VIP.%20"><button
+                styles="margin-top: 20px;">COMPRAR VIA WHATSAPP</button></a>
+    </div>
+    <style>
+        .containerImagem {
+            transition: all 0.5s ease;
+            margin: 1rem 5rem 0 5rem;
+            gap: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .containerImagem img {
+            cursor: pointer;
+            transition: all 0.5s ease;
+            border: 3px solid cyan;
+            width: 15rem;
+            height: 15rem;
+        }
+
+        .containerImagem img:hover {
+            transition: all 0.5s ease;
+            transform: translateY(-10%);
+        }
+
+        button {
+            transition: all 0.3s ease;
+            font-weight: bold;
+            margin-top: 1rem;
+            border-radius: 4rem;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            padding: 1rem 2rem;
+            background-color: #0069FF;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+        }
+
+        ::-webkit-scrollbar-track:hover {
+            background: #666;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        ::-webkit-scrollbar-corner {
+            background: #333333;
+        }
+
+        button:hover {
+            transition: all 0.3s ease;
+            transform: scale(1.2);
+        }
+
+        hr {
+            opacity: 0.75;
+            background-color: #00FFFF;
+            height: 1rem;
+            width: 0.1rem;
+        }
+
+        .divLista {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .itemLista {
+            transition: all 0.5s ease;
+            cursor: pointer;
+            opacity: 0.75;
+        }
+
+        .itemLista:hover {
+            transition: all 0.5s ease;
+            transform: translateY(-10%);
+            opacity: 1;
+        }
+
+        nav {
+            font-weight: bold;
+            background-color: #192241;
+            height: 4rem;
+            padding: 0 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        img {
+            height: 10%;
+            width: 10%;
+        }
+
+        .logoName {
+            display: flex;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 1rem;
+        }
+
+        .logoName img {
+            display: flex;
+            align-items: center;
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .vermelho {
+            color: rgb(255, 98, 98);
+        }
+
+        .divisao {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: calc(100vh - 4rem);
+        }
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin: 0;
+            border: none;
+            padding: auto;
+        }
+
+        body {
+            background-color: black;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .containerImagem {
+                width: 70vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 1rem 5rem 0 5rem;
+                gap: 0.5rem;
+                /* Ajuste as margens conforme necessário */
+            }
+
+            .containerImagem img {
+                width: 7rem;
+                /* Ajuste o tamanho das imagens */
+                height: 7rem;
+            }
+
+            .divisao {
+                margin-bottom: 0.5rem;
+            }
+
+            h1 {
+                font-size: 3rem;
+                /* Ajuste o tamanho da fonte */
+            }
+        }
+    </style>
+</body>
+
+</html>
